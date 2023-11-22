@@ -96,7 +96,7 @@ function add (db, option, answers) {
                 if (err) {
                     console.log('Something went wrong!')
                     console.log(err)
-                } else {
+                } else   {
                     console.log('Employee added')
                 }
             })
