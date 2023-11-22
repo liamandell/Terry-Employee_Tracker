@@ -81,7 +81,7 @@ function add (db, option, answers) {
             VALUES ('${answers.role_title}','${answers.role_salary}','${answers.role_department_id}');
             `, (err, results) => {
                 if (err) {
-                    console.log('Something went wrong!')
+                    console.log('Something went wrong')
                     console.log(err)
                 } else {
                     console.log('Role added')
@@ -94,7 +94,7 @@ function add (db, option, answers) {
             VALUES ('${answers.employee_first_name}', '${answers.employee_last_name}', '${answers.employee_role_id}', '${answers.employee_manager_id}');
             `, (err, results) => {
                 if (err) {
-                    console.log('Something went wrong!')
+                    console.log('Something went wrong')
                     console.log(err)
                 } else   {
                     console.log('Employee added')
