@@ -2,8 +2,8 @@
 ## Employee Management CLI Application
 This command-line application allows users to manage employee information, including departments, roles, and employees. Users can perform various actions, such as viewing existing data, adding new entries, and updating employee roles.
 ## Refrences
-I was able to work with my tutors and look up some of the code with classmates and ChatGpt. Trying not to rely on it, but it did help in understanding the functions
-some of the code are snippets, but I fixed the bugs referencing other repos. This helped with comparing my code to functioning deployments.
+I was able to work with my tutors and look up some of the code with classmates and ChatGpt. Trying not to rely on it, but it did help in understanding the functions.
+Some of the code are snippets, but I fixed the bugs referencing other repos. This helped with comparing my code to functioning deployments.
 ## Features
 View all departments: Displays a formatted table showing department names and IDs.
 View all roles: Presents job title, role ID, department, and salary for each role.
