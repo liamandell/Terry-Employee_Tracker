@@ -18,7 +18,9 @@ function uiStart () {
         {
             type:'list',
             message:'What would you like to do?',
+
             name:'menuSelect',
+            
             choices: [
                 'View all departments',
                 'View all roles',
