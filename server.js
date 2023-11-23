@@ -1,13 +1,13 @@
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
-const query = require('./js/query.js')
+const query = require('./query.js')
 
 // creates a connection to sql database
 const db = mysql.createConnection(
     {
         host:'localhost',
         user:'root',
-        password:'spottedleaf',
+        password:'liamandell',
         database:'employees_db'
     },
     console.log(`Connected to database`)

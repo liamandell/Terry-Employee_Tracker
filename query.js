@@ -17,7 +17,9 @@ function view (db, option) {
                         // if the table is not empty, the table is logged
                         console.table(result)
                     }
+
                 }
+                
             })
             break;
         case 'View all roles':
