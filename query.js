@@ -114,6 +114,7 @@ function update(db, answers) {
     WHERE id = '${answers.employee_update_id}';
     `)
 }
+// exports the functions to be used in server.js
 module.exports = {
     view,
     add,
