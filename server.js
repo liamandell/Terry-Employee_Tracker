@@ -1,3 +1,4 @@
+// contains the code that starts the app and prompts the user for input
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
 const query = require('./query.js')
@@ -20,7 +21,7 @@ function uiStart () {
             message:'What would you like to do?',
 
             name:'menuSelect',
-            
+
             choices: [
                 'View all departments',
                 'View all roles',
@@ -165,10 +166,11 @@ function uiStart () {
                 query.update(db, answers)
                 break;
         }
+        // asks user if they want to continue using the app
     }).then(() => {
         console.log('\n')
         uiStart()
     })
 
-}
+}   // starts the app
 uiStart()
