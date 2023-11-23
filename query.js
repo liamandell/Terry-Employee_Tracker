@@ -54,6 +54,7 @@ function view (db, option) {
                 }
             })
             break;
+        
         case 'View all roles':
 
 
