@@ -41,4 +41,4 @@ License
 ## This project is licensed under the MIT License.
 
 ## Acknowledgments
-This application was created as part of a project/task related to [describe the context or purpose].
+This application was created as part of a project/task
